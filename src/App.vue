@@ -23,7 +23,7 @@ import ModalUserSettings from "@/components/modals/ModalUserSettings.vue";
 import { useUserStore } from '@store/user'
 import { useModalStore, type ModalType } from "@store/modal.ts";
 
-// Stores
+// Stores and Sources
 
 const userStore = useUserStore()
 const modalStore = useModalStore()
