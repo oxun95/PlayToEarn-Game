@@ -24,7 +24,6 @@ import { useUserStore } from '@store/user'
 import { useModalStore, type ModalType } from "@store/modal.ts";
 
 // Stores
-
 const userStore = useUserStore()
 const modalStore = useModalStore()
 
