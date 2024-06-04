@@ -29,6 +29,7 @@ const modalStore = useModalStore()
 
 // Constants
 
+
 const modals: Record<ModalType, ReturnType<typeof defineComponent>> = {
   information: ModalInformation,
   confirmation: ModalConfirmation,
